@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# 追記分
+## ActiveStorageの追加
+
+```
+rails active_storage:install
+```
