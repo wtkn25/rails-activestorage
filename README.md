@@ -29,3 +29,10 @@ Things you may want to cover:
 ```
 rails active_storage:install
 ```
+
+## 使用例
+
+```
+post = Post.first
+post.image.attach(io: File.open('./public/sample.png'), filename: 'sample.png')
+```
